@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.header ul li a:hover {
+    background-color: #FEB300;
+    color: whitesmoke;
+}
