@@ -1,0 +1,39 @@
+* {
+    color: #333333;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 40px;
+}
+
+img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+span {
+    color: #FEB300;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2 {
+    line-height: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h3 {
+    background-color: #FEB300;
+    opacity: 55%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 4px;
+    letter-spacing: 5px;
+}
