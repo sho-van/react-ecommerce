@@ -36,7 +36,7 @@
     font-size: 16px;
 }
 
-.single-product button {
+.single-product button, .chk-btn {
     padding: 10px 14px;
     border-radius: 2px;
     background-color: #D24F65;
@@ -45,8 +45,10 @@
     border: none;
     width: 100%;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .btn-icon {
     margin-right: 20px;
+    color: white;
 }

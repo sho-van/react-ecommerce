@@ -15,13 +15,21 @@ const Shop = () => {
     },[])
 
 
+    // add to cart button function
+
+    const [cart, setCounter] = useState([])
+    const cartButton = (product) => {
+        const newCart = [...cart, product]
+        setCounter(newCart)
+    }
+
     return (
         <div className='shop'>
             <h1>Search your products</h1>
             <div className='search'>
                 <input type="text" placeholder='Search products'/>
                 <FontAwesomeIcon icon={faCartShopping} className='icon' />
-                <span>10</span>
+                <span>{cart.length}</span>
             </div>
 
 
@@ -30,12 +38,12 @@ const Shop = () => {
                 <div className='all-products'>
                     {
                         products.map((product) => (
-                            <Products key={product.id} product={product} />
+                            <Products cartButton={cartButton} key={product.id} product={product} />
                         ))
                     }
                 </div>
 
-                <Details />
+                <Details cart={cart} />
             </div>
 
         </div>

@@ -1,0 +1,18 @@
+
+.details {
+    height: fit-content;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px #333333;
+    text-align: left;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.details h3 {
+    background-color: white;
+    color: black;
+    letter-spacing: normal;
+    text-align: left;
+}
