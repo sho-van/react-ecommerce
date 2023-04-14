@@ -1,7 +1,5 @@
 import React from 'react';
 import './Products.css'
-
-import one from '../../images/products/002.png'
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 

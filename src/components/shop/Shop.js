@@ -30,7 +30,7 @@ const Shop = () => {
                 <div className='all-products'>
                     {
                         products.map((product) => (
-                            <Products product={product} />
+                            <Products key={product.id} product={product} />
                         ))
                     }
                 </div>
