@@ -1,25 +1,19 @@
-.products {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    text-align: left;
-    display: flex;
-    gap: 20px;
-}
-
 .single-product {
     border-radius: 3px;
     border: none;
     box-shadow: 1px 1px 12px #333333;
-    padding: 15px;
+    padding: 20px 10px;
 }
 
 .products-image {
     position: relative;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 .products-image img {
     width: 300px;
+    margin-bottom: 40px;
 }
 
 .products-image span {
@@ -34,10 +28,6 @@
     border-radius: 3px 12px;
 }
 
-/*..single-product h2 {*/
-/*    font*/
-/*}*/
-
 .price {
     font-size: 16px;
 }
@@ -49,8 +39,14 @@
 .single-product button {
     padding: 10px 14px;
     border-radius: 2px;
-    background-color: #FEB300;
+    background-color: #D24F65;
     color: white;
     font-weight: bold;
     border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-icon {
+    margin-right: 20px;
 }

@@ -1,0 +1,67 @@
+
+  [
+    {
+      "id": "1",
+      "name": "banana",
+      "img": "https://i.ibb.co/0Br9xCF/002.png",
+      "rating": "4.2",
+      "category": "fruits",
+      "price" : "40"
+    },
+    {
+      "id": "2",
+      "name": "graves",
+      "img": "https://i.ibb.co/Qfmzdqn/003.png",
+      "rating": "4.2",
+      "category": "graves",
+      "price" : "33"
+    },
+    {
+      "id": "3",
+      "name": "pine-apple",
+      "img": "https://i.ibb.co/tPyf4Lk/004.png",
+      "rating": "3.8",
+      "category": "pine-apple",
+      "price" : "90"
+    },
+    {
+      "id": "4",
+      "name": "apple",
+      "img": "https://i.ibb.co/x8XfyWt/005.png",
+      "rating": "4.1",
+      "category": "apple",
+      "price" : "08"
+    },
+    {
+      "id": "5",
+      "name": "mango",
+      "img": "https://i.ibb.co/G0nRmPG/006.png",
+      "rating": "4.4",
+      "category": "mango",
+      "price" : "15"
+    },
+    {
+      "id": "6",
+      "name": "apple",
+      "img": "https://i.ibb.co/Qfmzdqn/003.png",
+      "rating": "4.1",
+      "category": "apple",
+      "price" : "24"
+    },
+    {
+      "id": "7",
+      "name": "mango",
+      "img": "https://i.ibb.co/G0nRmPG/006.png",
+      "rating": "4.4",
+      "category": "mango",
+      "price" : "45"
+    },
+    {
+      "id": "8",
+      "name": "apple",
+      "img": "https://i.ibb.co/x8XfyWt/005.png",
+      "rating": "4.1",
+      "category": "apple",
+      "price" : "41"
+    }
+  ]
