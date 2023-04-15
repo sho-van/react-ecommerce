@@ -2,6 +2,7 @@ import React from 'react';
 import './Products.css'
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import Rating from "react-rating";
 
 const Products = (props) => {
 
@@ -15,7 +16,16 @@ const Products = (props) => {
                     <span>{category}</span>
                 </div>
                 <h2>{name}</h2>
-                <p className="price">Price: $<span>{price}</span> | Rating: <span>{rating}</span></p>
+
+
+
+                <p className="price">Price: $<span>{price}</span> | Rating: <span>
+                    <Rating
+                    initialRating={rating}
+                    readonly
+                    className="rating"
+                    />
+                </span></p>
                 <button onClick={()=>props.cartButton(props.product)}><FontAwesomeIcon icon={faCartShopping} className="btn-icon"/>add to cart</button>
             </div>
         </div>
