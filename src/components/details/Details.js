@@ -14,6 +14,7 @@ const Details = (props) => {
 
             <table>
                 <tr>
+                    <th>key</th>
                     <th>product name</th>
                     <th>price</th>
                 </tr>
@@ -21,6 +22,7 @@ const Details = (props) => {
                 {
                     props.cart.map(product => (
                         <tr>
+                            <td>{product.id}</td>
                             <td>{product.name}</td>
                             <td>{product.price}</td>
                         </tr>

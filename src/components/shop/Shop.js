@@ -23,11 +23,23 @@ const Shop = () => {
         setCounter(newCart)
     }
 
+
+    //search product
+    const changeInput = (event) => {
+        const userInput = event.target.value
+        // eslint-disable-next-line array-callback-return
+        const filteredProduct = products.filter((product) =>
+            product.name.toLowerCase().includes(userInput.toLowerCase())
+        )
+        setProducts(filteredProduct)
+
+    }
+
     return (
         <div className='shop'>
             <h1>Search your products</h1>
             <div className='search'>
-                <input type="text" placeholder='Search products'/>
+                <input onChange={changeInput} type="text" placeholder='Search products'/>
                 <FontAwesomeIcon icon={faCartShopping} className='icon' />
                 <span>{cart.length}</span>
             </div>

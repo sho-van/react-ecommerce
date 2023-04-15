@@ -42,7 +42,7 @@
     },
     {
       "id": "6",
-      "name": "apple",
+      "name": "lettuces",
       "img": "https://i.ibb.co/Qfmzdqn/003.png",
       "rating": "4.1",
       "category": "apple",
@@ -50,7 +50,7 @@
     },
     {
       "id": "7",
-      "name": "mango",
+      "name": "child",
       "img": "https://i.ibb.co/G0nRmPG/006.png",
       "rating": "4.4",
       "category": "mango",
@@ -58,7 +58,7 @@
     },
     {
       "id": "8",
-      "name": "apple",
+      "name": "monkey",
       "img": "https://i.ibb.co/x8XfyWt/005.png",
       "rating": "4.1",
       "category": "apple",
